@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<style>
+		#blink {
+            border: 2px solid black;
+            border-radius: 12px;
+            display: inline-block;
+			font-size: 20px;
+			font-weight: bold;
+			font-family: sans-serif;
+            background-color: #154c4c;
+            
+		}
+#enquiryimg{
+    border-radius: 12px;
+    height: 98px;
+    width: 151px;
+}
+p{
+    color: white;
+    text-align: center;
+}
+	</style>
+</head>
+
+<body>
+    <div id="blink">
+        <img id="enquiryimg" src="enquire_img.png" alt="">
+	<p >
+		Enquire now
+	</p>
+</div>
+	<script type="text/javascript">
+		var blink =
+			document.getElementById('blink');
+
+		setInterval(function () {
+			blink.style.opacity =
+			(blink.style.opacity == 0 ? 1 : 0);
+		}, 1000);
+	</script>
+</body>
+
+</html>

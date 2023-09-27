@@ -1,0 +1,223 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#location {
+    padding: 4px;
+    border-radius: 12px;
+    background-color: gray;
+    display: inline-block;
+    color: white;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+#location a:hover {
+    color: black;
+}
+
+#locationimg {
+    margin: -9px 3px;
+    padding: 0px 4px;
+    width: 27px;
+}
+
+#enquiry {
+    padding: 4px;
+    border-radius: 12px;
+    background-color: gray;
+    display: inline-block;
+    color: white;
+    position: fixed;
+    bottom: 60px;
+    right: 20px;
+}
+
+#enquiryimg {
+    margin: -9px 3px;
+    padding: 0px 4px;
+    width: 27px;
+}
+
+#enquiry a:hover {
+    color: black;
+}
+
+.navbar {
+    margin-top: 16px;
+    margin-left: 3px;
+    display: block;
+    background-color: black;
+    border-radius: 30px;
+
+}
+
+.navbar ul {
+    overflow: auto;
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+
+.navbar li.main {
+    float: left;
+    list-style: none;
+    margin: auto;
+    padding: 18.5px 13px;
+
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.main a:hover {
+    color: rgb(224, 118, 47);
+    
+}
+
+.login {
+    border: 2px solid #000000;
+    border-radius: 25px;
+    background-color: #0a7ab9;
+    text-decoration: none;
+    color: white;
+    float: right;
+    padding: 3px 9px;
+    margin: 13px 6px;
+    cursor: pointer;
+
+}
+#loginlogo{
+    margin: -9px 0px;
+height: 28px;
+width: 29px;
+}
+.login:hover {
+    color: white;
+    background-color: #004c78;
+}
+
+.searchbox {
+    background-color: white;
+
+    float: right;
+    color: white;
+    margin: 19px 1px;
+    padding: 2px 2px;
+}
+
+#btngo {
+    height: 20px;
+    color: white;
+    background-color: gray;
+    cursor: pointer;
+}
+
+#logo {
+    margin-top: 12.5px;
+    margin-left: 9px;
+    width: 125px;
+    float: left;
+    height: 38px;
+    clear: both;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-family: trirong;
+}
+
+.heading {
+    margin-top: 1px;
+    border-radius: 30px;
+    background: url(../images/ape_electrik.png)no-repeat center center/cover;
+    display: flex;
+    flex-wrap: wrap;
+    height: 200px;
+}
+
+.heading p {
+    position: relative;
+    top: 75px;
+    left: 25px;
+    font-size: 3em;
+    color: white;
+    font-weight: 900;
+    font-family: trirong;
+}
+
+.container {
+    display: inline-block;
+    height: 15.5em;
+    
+}
+
+
+
+#contact {
+    margin: 0px 0px;
+    padding: 61px 0px 0px 31px;
+width: 30em;
+height: 9em;
+float: left;
+
+    
+    font-size: 1.5em;
+
+}
+#contactbg{
+    float: right;
+height:370px ;
+width:700px ;
+}
+#maplocation {
+float: right;
+margin-top: 12px;
+width: 28em;
+height: 17.1em;
+  
+    display: flex;
+    justify-content: center;
+
+}
+
+#imgmaplocation {
+    width: 26em;
+    border: 2px solid black;
+}
+
+#imgmaplocation:hover {
+    width: 28em;
+    height: 17em;
+    border: 2px solid blue;
+}
+.address{
+margin-top: 40px;
+
+clear: both;
+display: block;
+
+
+flex-wrap: wrap;
+background: url(../images/bgcu.png)no-repeat center center/cover;
+
+
+}
+#address {
+display: inline-block;
+    color: white;
+    margin-top: 30px;
+    padding: 61px 31px;
+    
+
+
+    
+
+    font-size: 1.5em;
+
+}
