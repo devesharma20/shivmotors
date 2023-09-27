@@ -1,0 +1,238 @@
+html{
+    scroll-behavior: smooth;
+}
+        body{
+            margin: 0px ;
+            padding: 0px ;
+        }
+        #location {
+            padding: 4px;
+            border-radius: 12px;
+            background-color: #0a7ab9;
+            display: inline-block;
+            color: white;
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            transition: all 0.3s ease-in-out 0s;
+        }
+
+        #location:hover {
+            color: white;
+           background-color: #004c78;
+           
+        }
+
+        #locationimg {
+            margin: -9px 3px;
+            padding: 0px 4px;
+            width: 27px;
+        }
+
+        #blink {
+            position: fixed;
+            top: 180px;
+            border: 2px solid black;
+            border-radius: 12px;
+            display: inline-block;
+
+			font-weight: bold;
+			
+            background-color: #154c4c;
+            transition: all 0.3s ease-in-out 0s;
+		}
+#enquiryimg{
+    border-radius: 10.5px;
+    height: 50px;
+    width: 75px;
+}
+#enquiretext{
+    margin: -10px 0px 0px 0px;
+    
+    color: white;
+    text-align: center;
+font-size: 10px;
+}
+#blink:hover{
+    cursor: pointer;
+    transform: scale(1.2); 
+margin-left: 8px;
+
+}
+
+        .navbar {
+            margin-top:16px;
+            margin-left: 3px;
+            display: block;
+            background-color: black;
+            border-radius: 30px;
+
+        }
+
+        .navbar ul {
+            overflow: auto;
+            margin: 0px 0px;
+            padding: 0px 0px;
+        }
+
+        .navbar li.main {
+            float: left;
+            list-style: none;
+            margin: auto;
+            padding: 18.5px 13px;
+
+        }           
+
+        .navbar li a {
+            text-decoration: none;
+            color: white;
+            transition: all 0.3s ease-in-out 0s;
+        }
+
+
+        .main a:hover {
+            color: rgb(224, 118, 47);
+        }
+
+        .login {
+            border: 2px solid #000000;
+            border-radius: 25px;
+            background-color: #0a7ab9;
+            text-decoration: none;
+            color: white;
+            float: right;
+            padding: 3px 9px;
+            margin: 13px 6px;
+            cursor: pointer;
+            transition: all 0.3s ease-in-out 0s;
+            
+        }
+        #loginlogo{
+            margin: -9px 0px;
+    height: 28px;
+    width: 29px;
+        }
+
+        .login:hover {  
+            color: white;
+            background-color: #004c78;
+            
+        }
+
+        .searchbox {
+            background-color: white;
+
+            float: right;
+            color: white;
+            margin: 19px 1px;
+            padding: 2px 2px;
+            
+        }
+
+        #btngo {
+            height: 20px;
+            color: white;
+            background-color: gray;
+            cursor: pointer;
+        }
+
+        #logo {
+            margin-top: 12.5px;
+            margin-left: 9px;
+            width: 125px;
+            float: left;
+            height: 38px;
+            clear: both;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+            font-family: trirong;
+        }
+
+        h2 {
+            color: rgb(0, 0, 0);
+            text-decoration: underline;
+            font-weight: bold;
+            text-align: center;
+            font-family: Audiowide;
+        }
+
+        #banner {
+            display: block;
+            margin: 0px auto;
+            height: 500px;
+            width: 100vw;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            height: 400px;
+            width: 100vw;
+            background-color: black;
+            display: flex;
+        }
+
+        .container div {
+            font-weight: bold;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            align-content: center;
+
+            width: 15em;
+            height: 15em;
+            color: white;
+            background-color: black;
+            box-sizing: border-box;
+
+
+            margin: auto auto;
+            text-align: center;
+        }
+.container a{
+    transition: all 0.4s ease-in-out 0s;
+}
+        .container a:hover {
+            cursor: pointer;
+            color: rgb(224, 118, 47);
+            transform: scale(1.2);
+        }
+
+        #imgpricelist {
+            padding-left: 20px;
+            filter: invert(100%);
+
+        }
+
+        .primaryimg {
+            
+            
+            width: 17em;
+            height: 196px;
+            border-radius: 20px;
+        }
+        .address{
+    margin-top: 0px;
+   
+    clear: both;
+    display: block;
+    
+   
+    flex-wrap: wrap;
+    background: url(../images/bgcu.png)no-repeat center center/cover;
+    
+}
+        #address {
+display: inline-block;
+            color: white;
+            margin-top: 0px;
+            padding: 61px 31px;
+            font-size: 1.5em;
+
+        }
+        
+        
+ 

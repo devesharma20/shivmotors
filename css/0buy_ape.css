@@ -1,0 +1,215 @@
+
+        body{
+            margin: 0px;
+            padding: 0px;
+        }
+        .navbar {
+            margin-top: 16px;
+            margin-left: 3px;
+            display: flex;
+            display: block;
+            background-color: black;
+            border-radius: 30px;
+
+        }
+
+        .navbar ul {
+            overflow: auto;
+            margin: 0px 0px;
+            padding: 0px 0px;
+        }
+
+        .navbar li.main {
+            float: left;
+            list-style: none;
+            margin: auto;
+            padding: 18.5px 13px;
+
+        }
+
+        .navbar li a {
+            text-decoration: none;
+            color: white;
+            transition: all 0.3s ease-in-out 0s;
+        }
+
+        .main a:hover {
+            color: rgb(224, 118, 47);
+            
+        }
+
+        .login {
+            border: 2px solid #000000;
+            border-radius: 25px;
+            background-color: #0a7ab9;
+            text-decoration: none;
+            color: white;
+            float: right;
+            padding: 3px 9px;
+            margin: 13px 6px;
+            cursor: pointer;
+
+        }
+
+        .login:hover {
+            color: white;
+            background-color: #004c78;
+        }
+
+        .searchbox {
+            background-color: white;
+
+            float: right;
+            color: white;
+            margin: 19px 1px;
+            padding: 2px 2px;
+        }
+
+        #btngo {
+            height: 20px;
+            color: white;
+            background-color: gray;
+            cursor: pointer;
+        }
+
+        #logo {
+            margin-top: 12.5px;
+            margin-left: 9px;
+            width: 125px;
+            float: left;
+            height: 38px;
+            clear: both;
+        }
+
+        #loginlogo {
+            margin: -9px 0px;
+            height: 28px;
+            width: 29px;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+            font-family: trirong;
+        }
+
+        .primarydiv {
+            margin-top: 1px;
+            margin-left: 2px;
+            background: url(../images/widest_range_buyape.png)no-repeat center center/cover;
+            height: 600px;
+            border-radius: 25px;
+
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-around;
+
+            border: 2px solid black;
+
+        }
+
+        .product {
+            margin: 2px;
+            padding: 2px;
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            justify-content: center;
+            width: 25em;
+            height: 20em;
+            background-color: rgb(255, 255, 255);
+            border-radius: 20px;
+        }
+
+        .product p {
+            color: black;
+            text-align: center;
+            font-weight: bold;
+        }
+        .product div{
+            margin-top: 20px;
+            text-align: center;
+            font-weight:800;
+            font-size: larger;
+        }
+
+        .productimg {
+            margin: auto;
+            height: 240px;
+            width: 325px;
+            position: relative;
+            top: 20px;
+            transition: all .3s ease-in-out 0s;
+        }
+
+        .product p {
+            position: relative;
+            visibility: hidden;
+
+        }
+.product:hover{
+    cursor: pointer;
+}
+        #product1:hover p {
+
+            visibility: visible;
+        }
+
+        #product1:hover .productimg {
+            transform: scale(1.2);
+        }
+
+        #product2:hover p {
+            visibility: visible;
+
+        }
+
+        #product2:hover .productimg {
+            transform: scale(1.1);
+        }
+
+        #product3:hover p {
+
+            visibility: visible;
+        }
+
+        #product3:hover .productimg {
+            transform: scale(1.2);
+        }
+
+        #product4:hover p {
+
+            visibility: visible;
+        }
+
+        #product4:hover .productimg {
+            transform: scale(1.1);
+        }
+
+        #container {
+            margin-top: 55px;
+            display: flex;
+height: 55vh;
+        }
+        .address{
+    margin-top: 0px;
+   
+    clear: both;
+    display: block;
+    
+   
+    flex-wrap: wrap;
+    background: url(../images/bgcu.png)no-repeat center center/cover;
+    
+}
+        #address {
+display: inline-block;
+            color: white;
+            margin-top: 0px;
+            padding: 61px 31px;
+            font-size: 1.5em;
+
+        }
+        

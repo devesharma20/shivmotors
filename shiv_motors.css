@@ -1,0 +1,141 @@
+#location {
+    padding: 4px;
+    border-radius: 12px;
+    /* height: 10px;
+    width: 20px; */
+    background-color: gray;
+    display: inline-block;
+    color: white;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+#location a:hover {
+    color: black;
+}
+
+#locationimg {
+    margin: -9px 3px;
+    padding: 0px 4px;
+    width: 27px;
+}
+
+.navbar {
+    display: block;
+    background-color: black;
+    border-radius: 30px;
+
+}
+
+.navbar ul {
+    overflow: auto;
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+
+.navbar li.main {
+    float: left;
+    list-style: none;
+    margin: auto;
+    padding: 18.5px 13px;
+
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.main a:hover {
+    color: rgb(224, 118, 47);
+}
+
+.login {
+    border: 2px solid #000000;
+    border-radius: 25px;
+    background-color: #0a7ab9;
+    text-decoration: none;
+    color: white;
+    float: right;
+    padding: 3px 9px;
+    margin: 13px 6px;
+    cursor: pointer;
+}
+
+.login a:hover {
+    color: rgb(224, 118, 47);
+}
+
+.searchbox {
+    background-color: white;
+
+    float: right;
+    color: white;
+    margin: 19px 1px;
+    padding: 2px 2px;
+}
+
+#btngo {
+    height: 20px;
+    color: white;
+    background-color: gray;
+    cursor: pointer;
+}
+
+#logo {
+    margin-top: 12.5px;
+    margin-left: 9px;
+    width: 115px;
+    float: left;
+    height: 38px;
+    clear: both;
+}
+
+h2 {
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+    font-weight: bold;
+    text-align: center;
+    font-family: Audiowide;
+}
+
+#banner {
+    display: block;
+    margin: 0px auto;
+    height: 500px;
+    width: 1500px;
+}
+
+.container {
+    border: 2px solid blue;
+    background-color: black;
+}
+
+.container div {
+    border: 2px solid red;
+    width: 275px;
+    color: white;
+    background-color: black;
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 0px 110px;
+    text-align: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-family: trirong;
+}
+
+.container a:hover {
+    color: rgb(224, 118, 47);
+}
+
+.primaryimg {
+    width: 275px;
+    height: 196px;
+
+}

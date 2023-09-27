@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong">
+    <link rel="stylesheet" href="css/0form.css">
+</head>
+<style>
+    
+</style>
+<body>
+    <header>
+        <img id="logo"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJxbdngdlMu6YBXL9aQXCt2pUgP_PCJbOuvw&usqp=CAU"
+            alt="error">
+        <nav class="navbar">
+            <ul>
+
+                <li class="main"> <a href="index.html">Home</a></li>
+                <li class="main"><a href="">About</a></li>
+                <li class="main"><a href="">Services</a></li>
+                <li class="main"><a href="0contact_us_new.html">Contact us</a></li>
+                <a href=""><li class="login"> <img id="loginlogo" src="images/login_logo.png" alt="error"> Dealer Login</li></a>
+                <div class="searchbox"><input type="text" placeholder="Search this website"><button
+                        id="btngo">Go</button></div>
+
+            </ul>
+        </nav>
+    </header>
+
+    <div id="container">
+        <h2>Enquiry form for shiv motors</h2>
+        <form name="submit-to-google-sheet">
+        <div>
+            <label for="name">Name:</label>
+            <input class="fn" type="text" name="Name">
+        </div>
+
+        <div>
+            <label for="Father's name">Father's name:</label>
+            <input name="Father's Name" type="Father's name" class="fn">
+        </div>
+        <div>
+            <label for="dob">DOB:</label>
+            <input type="date" name="DOB" class="fn">
+        </div>
+        <div>
+            <label for="email">Email: </label>
+            <input type="email" name="email" class="fn">
+        </div>
+        <div>
+            <label for="number"> Contact number: </label>
+            <input type="number" name="number" class="fn">
+        </div>
+        <div>
+            <label for="checkbox">Accept to terms and conditions</label>
+            <input type="checkbox" name="marks" id="checkbox">
+        </div>
+        <div>
+            Gender:
+            <label for="male">Male:</label>
+            <input type="radio" name="Male" id="male">
+            <label for="female">Female:</label>
+            <input type="radio" name="Female" id="female">
+            <label for="others">Other:</label>
+            <input type="radio" name="Others" id="others">
+        </div>
+        <label for="model">Select model</label>
+        <div><select name="model" id="model">
+                <option value="Ape E city">Ape E city</option>
+                <option value="Ape E xtra">Ape E xtra </option>
+                <option value="Ape City CNG">Ape City CNG</option>
+                <option value="Ape City CNG">Ape NXT+ CNG</option>
+                <option value="Ape City CNG">Ape Xtra LDX CNG</option>
+            </select>
+        </div>
+        <div>
+            <label for="textarea">Write your query:</label>
+            <div id="query">
+                <textarea  name="query" cols="40" rows="5" id="textarea"></textarea>
+            </div>
+        </div>
+
+        <a class="btn" href=""><button id="submit" >Submit</button></a>
+        <a class="btn" href=""><button id="reset" >Reset</button></a>
+
+        </form>
+        <span id="msg"></span>
+    </div>
+    <div class="address">
+        <div id="address">
+            Shiv Motors <br>
+            GST number: 09AVUPS5213J2ZV <br>
+            Registered office: Shiv motors, opp. gandhi asharam, <br>
+            Banna Devi, GT road, Aligarh, Uttar Pradesh 202001 India <br>
+            Telephone: +91 7252838370 <br>
+            <br>
+            Email: shivmotors1966@gmail.com <br>
+            Website www.shivmotorsaligarh.in <br>
+        </div>
+        </div>
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbww_1PgRKofkc5cOAm-Ju5xN-0hzC-iO65VyEoesYBYXqu3oL460-pj83bG_aWoN1U8/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById("msg")
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function(){
+                        msg.innerHTML = ""
+                    },5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+        </script>
+</body>
+
+</html>

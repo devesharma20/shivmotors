@@ -1,0 +1,62 @@
+
+.navbar{
+    display: flex;
+    flex-direction: column;
+}
+.navbar li {
+    font-size:smaller;
+
+}
+.navbar li.main{
+    margin: 6px 0px;
+    padding: 2px 12px;
+}
+.nav{
+    display: block;
+}
+.nav ul{
+    justify-content: center;
+    align-content: center;
+}
+.searchbox{
+    margin: 7px 2px;
+    float: right;
+}
+.login{
+    font-size: smaller;
+    width: 115px;
+    height: 25px;
+    padding: 2px 2px;
+margin: 4px 10px;
+float: right;
+
+}
+#loginlogo{
+    margin: -6px 2px;
+    height:20px ;
+width:21px ;
+}
+
+#logo{
+    margin: 5px auto  ;
+}
+#banner{
+    height: auto;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: auto;
+}
+.container div{
+   height:11em ;
+   width:12em ;
+}
+.primaryimg{
+    height:100px ;
+    width: 10em;
+}
+#address{
+    font-size:larger;
+}
